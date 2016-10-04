@@ -5,4 +5,4 @@ Watch video: https://www.youtube.com/watch?v=P6GE1JLifqQ
 
 https://chrome.google.com/webstore/detail/handle-stalker/ofdhgbjblhdkepgmafdeppjcmaaegllf
 
-![Alt text](screenshot.jpg?raw=true "ScreenShot")
+![Alt text](screenshot.png?raw=true "ScreenShot")
