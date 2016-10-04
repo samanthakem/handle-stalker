@@ -4,3 +4,5 @@ Chrome extension that aims to open all the major social networks pages related t
 Watch video: https://www.youtube.com/watch?v=P6GE1JLifqQ
 
 https://chrome.google.com/webstore/detail/handle-stalker/ofdhgbjblhdkepgmafdeppjcmaaegllf
+
+![Alt text](screenshot.jpg?raw=true "ScreenShot")
