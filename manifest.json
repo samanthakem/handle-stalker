@@ -1,9 +1,11 @@
 {
   "manifest_version": 2,
 
-  "name": "Handle@Awareness",
-  "description": "This extension shows social networks associated to a specific handle.",
+  "name": "Handle Stalker",
+  "description": "This extension opens up the social network pages associated to a specific handle.",
   "version": "1.0",
+
+  "author": "Samantha Monteiro",
 
   "browser_action": {
     "default_icon": "icon.png",
