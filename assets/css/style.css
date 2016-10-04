@@ -1,0 +1,11 @@
+body {
+	width: 300px;
+	overflow-x: hidden;
+}
+
+.btn-custom:not(.nohover) {
+    background-color: #000;
+    color: white;
+		border: none;
+    outline:none;
+}
