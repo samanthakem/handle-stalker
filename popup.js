@@ -7,6 +7,7 @@ var social_ntws = {
 	"linkedin": "linkedin.com/in/"
 }
 
+// open the url in a new tab
 var openInNewTab = function(url, handle) {
 	var link = "https://www." + url + handle;
 	console.log(link);
@@ -14,10 +15,8 @@ var openInNewTab = function(url, handle) {
   	win.focus();
 }
 
-
-document.addEventListener('DOMContentLoaded', function() {
-	var submit_btn = document.getElementById('submit')
-	submit_btn.addEventListener('click', function() {
+// verify if user typed a handle and opens new tabs
+var stalkHandle = function() {
 	var handle = document.getElementById('handle-input').value;
 
 	if (handle.length != 0) {
@@ -26,5 +25,21 @@ document.addEventListener('DOMContentLoaded', function() {
 			openInNewTab(social_ntws[social_ntw], handle);
 		});
 	}
-});
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+	var submit_btn = document.getElementById('submit')
+	var input = document.getElementById('handle-input')
+
+	// verify handle once user pressed enter key
+	input.addEventListener('keypress', function (e) {
+		if (e.keyCode == 13) {
+			stalkHandle();
+		}
+	});
+
+	// verify handle once user clicks on submit button
+	submit_btn.addEventListener('click', function() {
+		stalkHandle();
+	});
 }, false);
